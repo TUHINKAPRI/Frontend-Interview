@@ -22,6 +22,54 @@
 
 [Go Back ↩](../README.md)
 
+## Javascript
+
+Javascript is a high level,dynamically typed, interpreter programming or scripting language that is used to build static web page to dynamic web page
+
+
+## EcmaScript vs Javascript
+
+Ecmascript is a specification , that is define standards ..  
+Javascript is a language that is used to implement the specification of Ecmascript..
+
+
+## null and undefined
+
+null is an object that is used to represent the absence of value.. it used when we explicitly clear the value of a variable.
+
+when we de-clear a variable and not initialized right now then by default undefined is initialized ...
+
+## Statically typed vs Dynamically Typed Language
+
+statically typed language is a language where the type of a variable is set at the compile time. we de-clear a variable and set a type of a variable and it can not be change in future... 
+
+dynamically typed language is a language where the type of a variable is set at the run time.
+ And the type of a variable is frequently change.
+
+
+ ## primitives vs references 
+
+ 1. Primitive type - 
+ i) immutable - this value cannot be changed once assigned .
+ ii) store in value - it store the actual value and store only single value.
+ iii) copying - whenever we copy a primitive value first it make a copy of this value then assign to new variable.
+
+ 2. Reference Type - 
+ <ol type="i">
+  <li >
+      mutable - this value can be change
+  </li>
+  <li>
+  store in reference - it store the memory address of an object where objects are located
+  </li>
+  <li>
+    copy a reference type- when we copy of a reference variable then it copy the actual address of the object so, if we want to change this then originally effected.
+  </li>
+ </ol>
+
+
+ ##
+
 ## Hoisting
 
 Hoisting is a concept in JavaScript where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is actually executed.
@@ -97,10 +145,10 @@ The context in which variables are declared and accessed
 
 When you enable strict mode in your JavaScript code, the JavaScript interpreter becomes less forgiving and enforces a stricter set of rules. It was introduced in ES5.
 
-1.  Variables without var doesn't create a global variable
-2.  The value of this inside a regular function is `undefined` contrary to a global context.
+1.  we can not be de-clear a variable without using let var const
+2.  The value of this keyword inside a regular function is `undefined` contrary to a global context.
 3.  Disallow `eval`
-4.  Do not allow undeclared variables
+4.  It prevent to add the duplicate properties in an object or cant be add duplicate parameters in function 
 
 ```javascript
 "use strict";
